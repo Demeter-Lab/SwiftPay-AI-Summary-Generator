@@ -9,7 +9,6 @@ const openai = new OpenAI({
 });
 
 // handle route
-router.route("/").get(helloPepe);
 router.route("/:name/:amount/:walletAddress").post(generateSummary);
 
 // response to api call
