@@ -1,5 +1,7 @@
 # swiftly-ai
 
+Install packages with `yarn install`
+
 ## Run the code with
 
 `node server.js`
