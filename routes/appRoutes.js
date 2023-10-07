@@ -24,7 +24,7 @@ async function generateSummary(req, res) {
     },
     {
       role: "user",
-      content: `Generate a professional payment summary for ${name}. Amount: ${amount} Flow tokens, Wallet Address: ${walletAddress}. (Keep your response short). Then at the end of the summary, add the tagline: "Thanks for using SwiftPay - Brought to you by Flow Blockchain and Streamr Network.`,
+      content: `Generate a professional payment summary for ${name}. Amount: ${amount} Flow tokens, Wallet Address: ${walletAddress}. (Keep your response very short). Then at the end of the summary, add the tagline: "Thanks for using SwiftPay - Brought to you by Flow Blockchain and Streamr Network.`,
     },
   ];
 
